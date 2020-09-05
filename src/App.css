@@ -1,0 +1,28 @@
+{/* GENERAL CSS */}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'NokiaPureTWebLight';
+  text-decoration: none;
+}
+
+h1{
+  font-weight: lighter;
+}
+
+h3{
+  font-weight: lighter;
+}
+
+.appDiv{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+

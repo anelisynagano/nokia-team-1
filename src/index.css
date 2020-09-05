@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@font-face {
+  font-family: 'NokiaPureHeadline';
+    src: local('NokiaPureHeadline_Bd'), url('./fonts/NokiaPureHeadline_Bd.ttf') format('truetype');
+    src: local('NokiaPureHeadline_Lt'), url('./fonts/NokiaPureHeadline_Lt.ttf') format('truetype');
+    src: local('NokiaPureHeadline_Rg'), url('./fonts/NokiaPureHeadline_Rg.ttf') format('truetype');
+    src: local('NokiaPureHeadline_ULt'), url('./fonts/NokiaPureHeadline_ULt.ttf') format('truetype');
+    src: local('NokiaPureHeadline_XBd'), url('./fonts/NokiaPureHeadline_XBd..ttf') format('truetype');
+    src: local('NokiaPureHeadline_Bd'), url('./fonts/NokiaPureTWeb_Bd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NokiaPureTWebBold';
+    src: local('NokiaPureTWeb_Bd'), url('./fonts/NokiaPureTWeb_Bd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NokiaPureTWebLight';
+    src: local('NokiaPureTWeb_Lt'), url('./fonts/NokiaPureTWeb_Lt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NokiaPureTWebRegular';
+    src: local('NokiaPureTWeb_Rg'), url('./fonts/NokiaPureTWeb_Rg.ttf') format('truetype');
+}

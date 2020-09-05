@@ -1,0 +1,305 @@
+.FullRangeDiv{
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+
+.FullRangeDiv2{
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.rangeRow1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rangeModel1{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 33%;
+    background-color: #323138;
+    color: white;
+    height: 650px;
+}
+
+.rangeImg {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    height: 110%;
+}
+
+.longBoi {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    height: 100%;
+}
+
+.rangeModel2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 2%;
+    margin-right:2%;
+    background-color: #857BAF;
+    color: white;
+    height: 650px;
+}
+
+.helpToolLink{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    background-color: #DEDDE3;
+    height: 650px;
+}
+
+.selectorContainer{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #587179;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-top: 8%;
+}
+
+.selectorContainer a{
+    text-decoration: none;
+    color: #587179;
+}
+
+
+.helpTitle{
+    text-align: center;
+    text-decoration: none;
+    color: #587179;
+    margin-bottom: 5%;
+    font-size:2.3rem;
+}
+
+.helpToolLink img{
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.selectorToolButton{
+    padding-top: 2%;
+    padding-bottom:2%;
+    padding-right: 3%;
+    padding-left: 3%;
+    border: none;
+    border-radius : 25px;
+    background-color: #587179;
+    color:white;
+    align-self: center;
+    font-size:1.05rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.rangeModelTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:8%;
+    margin-bottom:5%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.rangeModelName{
+    text-align: center;
+    margin-bottom:7%;
+}
+
+.rangeCarousel{
+    height: 35%;
+    border: none;
+}
+
+.rangeModelDescription{
+    text-align: center;
+}
+
+.rangeModelIcons {
+    display: flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.rangeModelIcons img{
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.rangeModelAddButton{
+    margin-top: 1%;
+    padding-top: 0.7%;
+    padding-bottom:0.7%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border: solid 1px white;
+    border-radius : 25px;
+    background-color: transparent;
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+
+.showMoreButton{
+    margin-top: 10%;
+    padding-top: 0.7%;
+    padding-bottom:0.7%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border: solid black 1px;
+    border-radius : 25px;
+    background-color: white;
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.rangeModel3{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    background-color: #F76568;
+    color: white;
+    height: 650px;
+}
+
+.rangeModel4{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 2%;
+    margin-right:2%;
+    background-color: #323138;
+    color: white;
+    height: 650px;
+}
+
+.rangeModel5{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    background-color: #7D977A;
+    color: white;
+    height: 650px;
+}
+
+
+
+{/* RESPONSIVENESS */}
+
+
+@media screen and (min-width: 415px) and (max-width: 968px){
+
+    .rangeRow1{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .rangeModel1{
+        margin-bottom: 5%;
+        width: 70%;
+        height: 610px;
+    }
+
+    .rangeModel2{
+        margin-bottom: 5%;
+        width: 70%;
+        height: 610px;
+    }
+
+    .helpToolLink{
+        margin-bottom: 5%;
+        width: 70%;
+        height: 610px;
+    }
+
+    .rangeModel3{
+        margin-bottom: 5%;
+        width: 70%;
+        height: 610px;
+    }
+
+    .rangeModel4{
+        display: none;
+    }
+
+    .rangeModel5{
+        display: none;
+    }
+
+  }
+  
+  
+  @media screen and (max-width: 414px){
+  
+    .rangeRow1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rangeModel1{
+        margin-bottom: 5%;
+        width: 70%;
+        height: 480px;
+    }
+
+    .rangeModel2{
+        margin-bottom: 5%;
+        width: 70%;
+        height: 480px;
+    }
+
+    .helpToolLink{
+        margin-bottom: 5%;
+        width: 70%;
+        height: 480px;
+    }
+
+    .rangeModel3{
+        margin-bottom: 5%;
+        width: 70%;
+        height: 480px;
+    }
+
+    .rangeModel4{
+        display: none;
+    }
+
+    .rangeModel5{
+        display: none;
+    }
+  
+  }

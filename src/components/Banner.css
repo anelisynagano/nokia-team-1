@@ -1,0 +1,28 @@
+.banner {
+	color: #fff;
+	position: relative;
+	object-fit: contain;
+	height: 90vh;
+	background-position: center;
+	background: url('./images/TopBanner.jpg');
+}
+
+.banner__info {
+	padding-top: 30vh;
+	padding-left: 70px;
+	padding-right: 50px;
+	padding-bottom: 40px;
+	
+}
+
+.banner__title{
+	margin-left: 70px;
+}
+
+.banner > .banner__findButton {
+	border: 1px solid #fff;
+	border-radius: 25px;
+	color: #fff;
+	margin-left: 70px;
+	margin-top : 80px;
+} 
